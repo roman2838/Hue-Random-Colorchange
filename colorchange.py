@@ -5,7 +5,7 @@ import random
 import time
 from PIL import Image, ImageDraw
 
-bridge = Bridge('192.168.2.113')        # Connect to Bridge
+bridge = Bridge()        # Connect to Bridge
 #converter = Converter()
 #rgbcie = converter.rgbToCIE1931         # Set rgbcie as conversionmethod
 couch = bridge.lights[0]                # grab Couch
